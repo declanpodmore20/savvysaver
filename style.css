@@ -68,7 +68,7 @@ body {
   padding-left: 3rem;
   /* font-size: .875rem !important; */
   width: 100%;
-  font-family: Roboto;
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 14px !important;
@@ -120,7 +120,7 @@ body {
 }
 
 .link-dark {
-  font-family: Roboto;
+  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -247,7 +247,7 @@ body {
 }
 
 .h3 {
-  font-family: Roboto;
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -279,7 +279,7 @@ body {
 }
 
 .chart-legend {
-  font-family: Roboto;
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -336,7 +336,7 @@ body {
 .btn-filter {
   background: #FCFCFC;
   width: 8rem;
-  font-family: 'Roboto';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
