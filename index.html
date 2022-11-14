@@ -63,7 +63,17 @@
             <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
-                  <h1 class="h1 px-3">Net Spend</h1>
+                  <h1 class="h1 px-3">Dashboard</h1>
+                </div>
+               <div class="p-3" id="filters">
+                  <l class="filter-label">Filter Data</l>
+                  <button name="filter" id="filterThisMonth" type="button" class="btn btn-filter btn-active mt-2">This Month</button>
+                  <button name="filter" id="filterLastMonth" type="button" class="btn btn-filter mt-2">Last Month</button>
+                  <button name="filter" id="filterLast3Months" type="button" class="btn btn-filter mt-2">Last 3 Months</button>
+                  <button name="filter" id="filterLastYear" type="button" class="btn btn-filter mt-2">Last 12 Months</button>
+                  <!-- <select id="categorySelect" class="btn btn-filter select-filter mt-2">
+                    <option value="" selected>All Categories</option>
+                  </select> -->
                 </div>
                 <div id="dashboardCarousel" class="net-spend carousel carousel-dark slide" data-bs-interval="false">
                   <div class="carousel-indicators">
@@ -130,17 +140,7 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-                <div class="p-3" id="filters">
-                  <l class="filter-label">Filter Data</l>
-                  <button name="filter" id="filterThisMonth" type="button" class="btn btn-filter btn-active mt-2">This Month</button>
-                  <button name="filter" id="filterLastMonth" type="button" class="btn btn-filter mt-2">Last Month</button>
-                  <button name="filter" id="filterLast3Months" type="button" class="btn btn-filter mt-2">Last 3 Months</button>
-                  <button name="filter" id="filterLastYear" type="button" class="btn btn-filter mt-2">Last 12 Months</button>
-                  <!-- <select id="categorySelect" class="btn btn-filter select-filter mt-2">
-                    <option value="" selected>All Categories</option>
-                  </select> -->
-                </div>
-                <h2 class="h2 px-3 py-3">Spend by Category</h2>
+                  <h2 class="h2 px-3 py-3">Spend by Category</h2>
                 <table id="categoriesTable" width="100%"></table>
 
             </div>
