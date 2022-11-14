@@ -398,9 +398,9 @@ option {
 }
 
 .code-amount {
-  font-family: Bree Serif;
+  font-family: Poppins;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 24px;
   line-height: 33px;
 }
